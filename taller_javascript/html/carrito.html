@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Carrito</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+<body>
+
+<nav>
+
+<ul class="menu">
+
+<li><a href="index.html">Inicio</a></li>
+<li><a href="banco.html">Banco</a></li>
+<li><a href="inventario.html">Inventario</a></li>
+<li><a href="estudiantes.html">Estudiantes</a></li>
+<li><a href="carrito.html">Carrito</a></li>
+<li><a href="vehiculos.html">Vehículos</a></li>
+<li><a href="biblioteca.html">Biblioteca</a></li>
+
+</ul>
+
+</nav>
+
+<h1>Carrito de compras</h1>
+
+<input id="productoCarrito" placeholder="Producto">
+
+<input id="precioCarrito" type="number" placeholder="Precio">
+
+<br><br>
+
+<button onclick="carrito.agregar()">Agregar</button>
+<button onclick="carrito.eliminar()">Eliminar</button>
+<button onclick="carrito.total()">Total</button>
+
+<p id="resultadoCarrito"></p>
+
+</body>
+
+<script src="../js/script.js" defer></script>
+
+</html>

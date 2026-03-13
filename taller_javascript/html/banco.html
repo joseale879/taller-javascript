@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Sistema Bancario</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+</head>
+
+<body>
+
+<nav>
+
+<ul class="menu">
+
+<li><a href="index.html">Inicio</a></li>
+<li><a href="banco.html">Banco</a></li>
+<li><a href="inventario.html">Inventario</a></li>
+<li><a href="estudiantes.html">Estudiantes</a></li>
+<li><a href="carrito.html">Carrito</a></li>
+<li><a href="vehiculos.html">Vehículos</a></li>
+<li><a href="biblioteca.html">Biblioteca</a></li>
+
+</ul>
+
+</nav>
+
+<h1>Sistema de cuentas bancarias</h1>
+
+<input id="clienteBanco" placeholder="Cliente">
+
+<input id="montoBanco" type="number" placeholder="Monto">
+
+<br><br>
+
+<button onclick="banco.ingresar()">Ingresar</button>
+<button onclick="banco.retirar()">Retirar</button>
+<button onclick="banco.consultar()">Consultar</button>
+
+<p id="resultadoBanco"></p>
+
+</body>
+
+<script src="../js/script.js" defer></script>
+
+</html>
+

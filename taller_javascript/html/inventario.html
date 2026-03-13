@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+<meta charset="UTF-8">
+<title>Inventario</title>
+
+<link rel="stylesheet" href="../css/style.css">
+
+
+</head>
+
+<body>
+
+<nav>
+
+<ul class="menu">
+
+<li><a href="index.html">Inicio</a></li>
+<li><a href="banco.html">Banco</a></li>
+<li><a href="inventario.html">Inventario</a></li>
+<li><a href="estudiantes.html">Estudiantes</a></li>
+<li><a href="carrito.html">Carrito</a></li>
+<li><a href="vehiculos.html">Vehículos</a></li>
+<li><a href="biblioteca.html">Biblioteca</a></li>
+
+</ul>
+
+</nav>
+
+<h1>Inventario de productos</h1>
+
+<input id="nombreProducto" placeholder="Producto">
+<input id="precioProducto" type="number" placeholder="Precio">
+<input id="cantidadProducto" type="number" placeholder="Cantidad">
+
+<br><br>
+
+<button onclick="inventario.agregar()">Agregar</button>
+<button onclick="inventario.total()">Calcular valor</button>
+
+<p id="resultadoInventario"></p>
+
+</body>
+
+<script src="../js/script.js" defer></script>
+
+</html>
