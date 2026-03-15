@@ -32,16 +32,22 @@
 
 <input id="nombreEstudiante" placeholder="Nombre">
 
+<input id="materiaEstudiante" placeholder="Materia">
+
 <input id="notaEstudiante" type="number" placeholder="Nota">
 
 <br><br>
 
 <button onclick="estudiantes.registrar()">Registrar</button>
 
-<p id="resultadoEstudiante"></p>
+<button onclick="estudiantes.consultarMateria()">Consultar por materia</button>
+
+<br><br>
+
+<pre id="resultadoEstudiante"></pre>
 
 </body>
 
-<script src="../js/script.js" defer></script>
+<script src="../js/estudiantes.js" defer></script>
 
 </html>
